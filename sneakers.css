@@ -1,0 +1,61 @@
+body{
+    margin: auto;
+}
+/*Entête
+    première section*/
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+/*titre*/
+#leftbox{
+    text-align: left;
+    font-size: 150%;
+    padding: 15px 100px;
+    
+}
+#title{
+    text-decoration: none;
+}
+/*Les boutons d'inscription et de connexion*/
+#rightbox{
+    text-align: right;
+    vertical-align: top;
+}
+.button{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px 16px;
+    border-radius: 20px;
+    
+}
+.titre{
+    margin-top: 20px;
+    text-align: center;
+}
+.contenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gauche .img{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 575px;
+    height: 650px;
+}
+.droite{
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    max-width: 70%;
+}
+.droite .titre{
+    text-align: center;
+}
+.droite .bas{
+    text-align: left;
+}
+

@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+}
+/*Entête
+    première section*/
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+/*titre*/
+.titre{
+    text-decoration: none;
+}
+#leftbox{
+    text-align: left;
+    font-size: 150%;
+    padding: 15px 100px;
+    
+}
+#title{
+    text-decoration: none;
+}
+/*Les boutons d'inscription et de connexion*/
+#rightbox{
+    text-align: right;
+    vertical-align: top;
+}
+.button{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px 16px;
+    border-radius: 20px;
+    
+}
+
+.center-page{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+}
+.center{
+    width: 40%;
+    margin-top: 20px;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+
+}

@@ -1,0 +1,44 @@
+table,
+td {
+    border: 2px solid #333;
+
+}
+
+thead,
+tfoot {
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin: auto;
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+#leftbox{
+    text-align: left;
+    font-size: 150%;
+    padding: 15px 100px;
+
+}
+#title{
+    text-decoration: none;
+}
+
+#rightbox{
+    text-align: right;
+    vertical-align: top;
+}
+.button{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px 16px;
+    border-radius: 20px;
+
+}

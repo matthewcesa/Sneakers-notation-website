@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+}
+/*Entête 
+    Première section*/
+header.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+    text-decoration: none;
+}
+.titre{
+    text-decoration: none;
+}
+#leftbox{
+    text-align: left;
+    font-size: 150%;
+    padding: 15px 100px;
+    
+}
+#rightbox{
+    text-align: right;
+    vertical-align: top;
+}
+.button{
+    box-sizing: border-box;
+    width: 80%;
+    padding: 10px 16px;
+    border-radius: 20px;
+    
+}
+/*Formulaire
+    seconde section*/
+.formulaire{
+    margin: auto; width : 220px; 
+    width: 10%;
+    padding: 100px 16px;
+    border-radius: 20px;
+}
